@@ -1,0 +1,168 @@
+.main-section {
+  padding-top: 170px;
+}
+
+.want-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+.want-text {
+  font-size: 18px;
+  line-height: 150%;  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.tech-div-it {
+  padding-top: 0px;
+  padding-left: 11px;
+}
+.tech-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #3bf5bd;
+  margin-bottom: 8px;
+}
+.tech-title::before {
+  content: '';
+  width: 252px;
+  height: 170px;
+  display: inline-block;
+  background-image: url('../../imgs/computer.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 24px;
+}
+.aa::before {
+  background-image: url('../../imgs/airport.png');
+}
+.bb::before {
+  background-image: url('../../imgs/laptop.png');
+}
+.cc::before {
+  background-image: url('../../imgs/androd.png');
+}
+.tech-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;  
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 12px;
+}
+.tech-text2 {
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.tech-text2::after {
+  content: '';
+  width: 245px;
+  display: inline-block;
+  border-bottom: 1px solid #292B56;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+
+.box-img-doc {
+  padding-top: 10px;
+}
+.joye-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0 !important;
+  color: rgba(255, 255, 255, 0.8);
+}
+.menor {
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0 !important;
+  color: rgba(255, 255, 255, 0.4);
+}
+.margin-left {
+  margin-left: 15px;
+}
+.laptop-ul {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding-top: 84px;
+  margin-bottom: 65px;
+}
+.class {
+  margin-top: 20px;
+  margin-left: 45px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #f5443b;
+}
+.class:hover {
+  background-color: #f5443b;
+  color: #fff;
+}
+.laptop-list {
+  width: 276px;
+  height: 435px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  list-style: none;
+}
+.laptop-list:hover {
+  height: 500px;
+}
+.laptop-list:hover .absalut {
+  opacity: 1;
+}
+.laptop-list2 {
+  width: 276px;
+  height: 435px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  list-style: none;
+}
+.laptop-list2:hover {
+  height: 500px;
+}
+.absalut {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.laptop-list2:hover .absalut {
+  opacity: 1;
+}
+
+.show-all {
+  position: relative;
+  top: -20px;
+  left: 500px;
+  background-color: transparent;
+  color: #f5443b;
+  text-decoration: none;
+  border: 1px solid #f5443b;
+  cursor: pointer;
+}
+.show-all:hover {
+  background-color: #f5443b;
+  color: #fff;
+}
+
+.box-img-doc {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.imgusers {
+  width: 40px;
+  height: 40px;
+}

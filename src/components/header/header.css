@@ -1,0 +1,64 @@
+.header {
+  padding-top: 20px;
+}
+.logoimg {
+  margin-right: 150px;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo-div {
+  display: flex;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+.list__item {
+  list-style: none;
+  margin-right: 20px;
+
+}
+
+.list__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.activeHome {
+  color: #fff;
+}
+
+.list__link:hover {
+  color: #fff;
+}
+
+.header__select {
+  background-color: #171836;
+  color: #fff;
+}
+
+.header__select1 {
+  margin-right: 32px;
+  background-color: #171836;
+  border: none;
+  color: #fff
+}
+
+.btn {
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  background: #F5443B;
+  border-radius: 6px;
+}

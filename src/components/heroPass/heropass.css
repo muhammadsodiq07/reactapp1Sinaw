@@ -1,0 +1,38 @@
+.friends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fr-list {
+  display: flex;
+}
+.new-friends {
+  padding-top: 100px;
+}
+.img-red {
+  position: relative;
+  margin-right: 80px;
+}
+.red-img {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+}
+.name-div-fr {
+  position: relative;
+  top: 10px;
+}
+.get-friends {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 23px;
+}
+.fr-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 170%;  
+  color: rgba(255, 255, 255, 0.6);
+  width: 311px;
+}

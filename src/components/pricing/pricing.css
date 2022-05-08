@@ -1,0 +1,138 @@
+
+.pricing {
+  padding-top: 0px;
+}
+.course-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+.course-text {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+.priciing {
+  display: flex;
+  justify-content: space-between;
+}
+.priccing-list {
+  list-style: none;
+  width: 372px;
+  height: 515px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
+  border-radius: 20px;
+  position: relative;
+}
+.star-img {
+  position: absolute;
+  left: 49px;
+  top: 49px;
+}
+
+.starimg {
+  width: 60px;
+  height: 60px;
+}
+.star {
+  display: flex;
+  flex-flow: row wrap;
+}
+.priicing-box {
+  padding-top: 40px;
+  padding-left: 36px;
+}
+.free-div {
+  padding-left: 30px;
+}
+.free {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 !important;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.nol {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #f5443b;
+  position: absolute;
+}
+.dollar {
+  font-size: 14px;
+  line-height: 150%;
+  color: #f5443b;
+}
+
+.month {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 150%;
+  position: absolute;
+  right: 180px;
+  top: 85px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ball-div {
+  padding-top: 80px;
+}
+.ball {
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 16px;
+}
+.ball::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 1px solid #bbbbc4;
+  background-color:  #9799ce;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  border: none;
+}
+
+.your-button {
+  display: inline-block;
+  margin-top: 100px;
+  padding: 15px 55px;
+  border : 1px solid #f5443b;
+  background-color: transparent;
+  text-decoration: none;
+  color: #f5443b; 
+  margin-left: 40px;
+}
+.your-button:hover {
+  background-color: #f5443b;
+  color: #fff;
+}
+.your-button:active {
+  background-color: transparent;
+}
+.priciing {
+  padding-top: 84px;
+}
+.mameme {
+  margin-top: 24px;
+}
+
+.red-back {
+  position: absolute;
+  right: 0;
+}
+.popular {
+  position: absolute;
+  right: 0;
+  font-size: 15px;
+  top: 15px;
+  transform: rotate(40deg);
+  color: #fff;
+}

@@ -1,0 +1,56 @@
+.live-online {
+  padding-top: 100px;
+  position: relative;
+}
+.live-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+.live-text {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+.youtube {
+  text-align: center;
+  padding-top: 100px;
+}
+.ifare {
+  position: relative;
+  left: 250px;
+}
+.laptop {
+  position: relative;
+  right: -80px;
+  bottom: 10px;
+  z-index: -1;
+}
+
+.laptop2 {
+  position: relative;
+  left: -350px;
+  z-index: -1;
+  bottom: 280px;
+}
+
+.see-more-video {
+  position: relative;
+  bottom:  180px;
+  left: 980px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D1D1D7;
+  text-shadow: 0px 5px 10px #2E3062;
+}
+.bx-right-arrow-alt {
+  font-size: 20px;
+  margin-left: 18px;
+}
