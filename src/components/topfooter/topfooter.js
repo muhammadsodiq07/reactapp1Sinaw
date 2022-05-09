@@ -16,7 +16,7 @@ const Topfooter = () => {
                 Reach out our apps everywhere and everytime with Sinauw Mobile
                 Application.
               </p>
-              <div className="link-goole row middle">
+              <div className="link-goole">
                 <img className="app-gogle" src={google} alt />
                 <img src={apple} alt />
               </div>
